@@ -1,10 +1,27 @@
 import React from 'react';
 import './Sidebar.css';
+import SidebarRow from './SidebarRow';
+import ImageAvatar from './assets/avatar.png';
+
+import PeopleIcon from '@material-ui/icons/People';
+import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
+import ChatIcon from '@material-ui/icons/Chat';
+import StorefrontIcon from '@material-ui/icons/Storefront';
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 
 function Sidebar() {
     return (
-        <div>
-            Sidebar
+        <div className="sidebar">
+            <SidebarRow src={ImageAvatar} title="Limp Bizkit" />
+            <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 Information Center" />
+            <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
+            <SidebarRow Icon={PeopleIcon} title="Friends" />
+            <SidebarRow Icon={ChatIcon} title="Messenger" />
+            <SidebarRow Icon={StorefrontIcon} title="Marketplace" />
+            <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
+            <SidebarRow Icon={ExpandMoreIcon} title="Marketplace" />
         </div>
     )
 }

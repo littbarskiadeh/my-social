@@ -12,8 +12,8 @@ function Widgets() {
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
                 title="Title"
-                frameborder="0"
-                allowfullscreen="true"
+                frameBorder="0"
+                allowFullScreen={true}
                 allow="encrypted-media"></iframe>
         </div>
     )

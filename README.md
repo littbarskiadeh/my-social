@@ -96,9 +96,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* React JS
+* Material UI
+* Firebase
 
 
 
@@ -118,18 +118,37 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Make sure you have a Google account to run the project. You can create one at [https://google.com](https://example.com)
+
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/your_username_/my-social.git
    ```
+   
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+   
+4. Login to your Google Account on your browser and Create your firebase project - https://console.firebase.google.com/
+   
+5. Go to the project settings and copy the firebaseConfig code
+
+   1. 
+
+6. Replace the firebaseConfig with this code in `firebase.js`
+
    ```JS
-   const API_KEY = 'ENTER YOUR API';
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   const firebaseConfig = {
+     apiKey: "AIzaSyBydvc724djmUHFsbQ2P-AkF5jFXrjDfrY",
+     authDomain: "facebook-clone-2c8f3.firebaseapp.com",
+     projectId: "facebook-clone-2c8f3",
+     storageBucket: "facebook-clone-2c8f3.appspot.com",
+     messagingSenderId: "183767096081",
+     appId: "1:183767096081:web:b3b2b36c50abab3d360ab0",
+     measurementId: "G-68X895RPJL"
+   };
    ```
 
 

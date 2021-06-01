@@ -7,6 +7,10 @@ import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import './MessageSender.css';
 import { useStateValue } from './StateProvider';
 
+import db from './firebase';
+import firebase from 'firebase';
+
+
 function MessageSender() {
     const [{ user }, dispatch] = useStateValue();
 
@@ -16,7 +20,15 @@ function MessageSender() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // TODO - som db stuff
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            profilePic: user.photoURL,
+            username: user.displayName,
+            image: imageUrl
+        })
+
+        alert('New post added successfully');
 
         setInput("");
         setImageUrl("");
@@ -32,7 +44,7 @@ function MessageSender() {
                         onChange={e => setInput(e.target.value)}
                     />
                     <input
-                        placeholder={`${user.photo_url}`}
+                        placeholder={`ImageURL`}
                         value={imageUrl}
                         onChange={e => setImageUrl(e.target.value)}
                     />

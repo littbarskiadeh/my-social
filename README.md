@@ -1,19 +1,23 @@
-### Built With
+### About
 
-* React JS
-  * Context API
-  * React Hooks
-* Material UI
-* Firebase
+This is a project I worked on to show my frontend skills using **React ContextAPI** for *State Management* and **Material UI** for design. A Fullstack React App with basic <u>**CR**UD</u> functionality, using Google Cloud storage - Firestore.
+
+- Project is still in development 
+- Currently deployed on https://facebook-clone-2c8f3.web.app/ 
+- Login to the app using your Google Account
+
+
 
 
 ### Prerequisites
 
-Make sure you have npm installed
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Make sure you have latest version of npm installed
+
+```sh
+npm install npm@latest -g
+```
+
+
 
 ### Installation
 
@@ -31,9 +35,7 @@ Make sure you have npm installed
    
 4. Login to your Google Account on your browser and Create your firebase project - https://console.firebase.google.com/
    
-5. Go to the project settings and copy the firebaseConfig code
-
-   1. 
+5. Go to the Firebase Project settings and copy the firebaseConfig code
 
 6. Replace the firebaseConfig with this code in `firebase.js`
 
@@ -50,10 +52,42 @@ Make sure you have npm installed
    };
    ```
 
+7. Run the app
+
+   ```
+   npm start
+   ```
 
 
 
-## Contact
+### Demo
+
+When you start the App:
+
+
+
+- Sign-in to the app using your gmail account
+
+![image-20210605074004104](C:\Users\litad\OneDrive\Documents\Projects\React\facebook-clone\fb-clone\docs\login-page.png)
+
+
+
+
+
+**Home Page**
+
+![image-20210605073650349](C:\Users\litad\OneDrive\Documents\Projects\React\facebook-clone\fb-clone\docs\screenshot.png)
+
+
+
+
+
+
+## Want to build something with me?
+
+Feel free to reach out.
+
+
 
 Email:`lit.adeh@gmail.com`
 

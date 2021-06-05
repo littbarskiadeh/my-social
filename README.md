@@ -68,7 +68,7 @@ When you start the App:
 
 - Sign-in to the app using your gmail account
 
-![](https://github.com/littbarskiadeh/my-social/docs/login-page.png)
+![](https://github.com/littbarskiadeh/my-social/docs/blob/main/login-page.png)
 
 
 
@@ -76,7 +76,7 @@ When you start the App:
 
 **Home Page**
 
-![](https://github.com/littbarskiadeh/my-social/docs/screenshot.png)
+![](https://github.com/littbarskiadeh/my-social/blob/main/docs/screenshot.png)
 
 
 

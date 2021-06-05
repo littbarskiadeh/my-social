@@ -62,7 +62,7 @@ npm install npm@latest -g
 
 ### Demo
 
-When you start the App:
+**When you start the App**
 
 
 
@@ -85,10 +85,9 @@ When you start the App:
 
 ## Want to build something with me?
 
-Feel free to reach out.
+Feel free to reach out
 
 
 
-Email:`lit.adeh@gmail.com`
-
-[LinkedIn Profile](https://www.linkedin.com/in/littbarskiadeh/ )	
+- Email:`lit.adeh@gmail.com`
+- [LinkedIn Profile](https://www.linkedin.com/in/littbarskiadeh/ )	

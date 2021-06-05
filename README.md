@@ -68,7 +68,7 @@ When you start the App:
 
 - Sign-in to the app using your gmail account
 
-![](https://github.com/littbarskiadeh/my-social/docs/blob/main/login-page.png)
+![](https://github.com/littbarskiadeh/my-social/blob/main/docs/login-page.png)
 
 
 

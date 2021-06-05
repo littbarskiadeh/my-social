@@ -68,7 +68,7 @@ When you start the App:
 
 - Sign-in to the app using your gmail account
 
-![image-20210605074004104](C:\Users\litad\OneDrive\Documents\Projects\React\facebook-clone\fb-clone\docs\login-page.png)
+![](https://github.com/littbarskiadeh/my-social/docs/login-page.png)
 
 
 
@@ -76,7 +76,7 @@ When you start the App:
 
 **Home Page**
 
-![image-20210605073650349](C:\Users\litad\OneDrive\Documents\Projects\React\facebook-clone\fb-clone\docs\screenshot.png)
+![](https://github.com/littbarskiadeh/my-social/docs/screenshot.png)
 
 
 

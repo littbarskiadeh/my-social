@@ -55,10 +55,6 @@ Make sure you have npm installed
 
 ## Contact
 
-Littbarski Adeh - [@jtown_boy](https://twitter.com/jtown_boy - lit.adeh@gmail.com
+Email:`lit.adeh@gmail.com`
 
-[@littbarskiadeh](https://www.linkedin.com/in/littbarskiadeh/ - lit.adeh@gmail.com
-
-
-
-[]: 
+[LinkedIn Profile](https://www.linkedin.com/in/littbarskiadeh/ )	

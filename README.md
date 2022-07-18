@@ -2,7 +2,6 @@
 
 This is a project I worked on to show my frontend skills using **React ContextAPI** for *State Management* and **Material UI** for design. A Fullstack React App with basic <u>**CR**UD</u> functionality, using Google Cloud storage - Firestore.
 
-- Project is still in development 
 - Currently deployed on https://facebook-clone-2c8f3.web.app/ 
 - Login to the app using your Google Account
 
